@@ -1,0 +1,24 @@
+{
+    "subreddits": [
+        "earthporn",
+        "wallpaper",
+        "wallpapers"
+    ],
+    "resolutions": [
+        "1920x1080",
+        "2560x1440",
+        "3840x2160"
+    ],
+    "recent_wallpapers": [
+        "https://i.redd.it/yuyah1q5vh881.jpg",
+        "https://i.redd.it/gakgutj5z2781.png",
+        "https://i.redd.it/u9f6m60b14681.jpg",
+        "https://i.redd.it/5binopnnteb81.jpg",
+        "https://i.redd.it/6thx66trlkb81.jpg",
+        "https://i.imgur.com/msz5sor.png",
+        "https://i.redd.it/oyusab430nb81.jpg",
+        "https://i.redd.it/vsg2e7qo70a81.jpg",
+        "https://i.redd.it/d0qcr6t87mb81.jpg",
+        "https://i.redd.it/o6lintmgye981.jpg"
+    ]
+}
