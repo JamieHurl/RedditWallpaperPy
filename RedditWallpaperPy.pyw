@@ -5,11 +5,19 @@ import os
 import time
 import logging
 import json
+from os.path import exists
 
 
 cwd = os.getcwd() + "\\"
-settings_file = "RedditWallpaperPy.json"
-with open(settings_file, "r") as f:
+if not exists("RedditWallpaperPy.json"):
+    new_file = open("RedditWallpaperPy.json", "w")
+    new_file.write('{\n"subreddits": [\n"wallpaper",\n"wallpapers"\n],\n"resolutions": [\n"1920x1080",\n"2560x1440",\n"3840x2160"\n],\n"recent_wallpapers": [\n]\n}')
+    new_file.close()
+if not exists("info.log"):
+    info_file = open("info.log", "w")
+    info_file.close()
+
+with open("RedditWallpaperPy.json", "r") as f:
     data = f.read()
     settings = json.loads(data)
 logging.basicConfig(filename="info.log", filemode="a", format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)

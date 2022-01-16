@@ -418,3 +418,10 @@
 2022-01-15 23:49:54,270 - INFO - Trying to download image o6lintmgye981.jpg
 2022-01-15 23:49:54,741 - INFO - Downloaded image o6lintmgye981.jpg
 2022-01-15 23:49:59,745 - INFO - Image downloaded & set: https://i.redd.it/o6lintmgye981.jpg - 5 Centimeters Per Second-No Anime Girl-HD [3840x2160]
+2022-01-16 00:43:02,526 - INFO - Searched the following subreddits:
+ wallpaper+wallpapers
+ for the following resolutions:
+ ['1920x1080', '2560x1440', '3840x2160']
+2022-01-16 00:43:03,520 - INFO - Trying to download image b2r9s8dgmz981.png
+2022-01-16 00:43:05,078 - INFO - Downloaded image b2r9s8dgmz981.png
+2022-01-16 00:43:10,097 - INFO - Image downloaded & set: https://i.redd.it/b2r9s8dgmz981.png - Indian chameleon [3840x2160]
