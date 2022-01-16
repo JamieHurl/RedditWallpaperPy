@@ -425,3 +425,16 @@
 2022-01-16 00:43:03,520 - INFO - Trying to download image b2r9s8dgmz981.png
 2022-01-16 00:43:05,078 - INFO - Downloaded image b2r9s8dgmz981.png
 2022-01-16 00:43:10,097 - INFO - Image downloaded & set: https://i.redd.it/b2r9s8dgmz981.png - Indian chameleon [3840x2160]
+2022-01-16 00:55:23,251 - INFO - Searched the following subreddits:
+ wallpaper+wallpapers
+ for the following resolutions:
+ ['1920x1080', '2560x1440', '3840x2160']
+2022-01-16 00:55:24,202 - INFO - Trying to download image vetwnz356za81.jpg
+2022-01-16 00:55:24,508 - INFO - Downloaded image vetwnz356za81.jpg
+2022-01-16 00:56:38,469 - INFO - Searched the following subreddits:
+ wallpaper+wallpapers
+ for the following resolutions:
+ ['1920x1080', '2560x1440', '3840x2160']
+2022-01-16 00:56:39,264 - INFO - Trying to download image u9f6m60b14681.jpg
+2022-01-16 00:56:39,952 - INFO - Downloaded image u9f6m60b14681.jpg
+2022-01-16 00:56:44,961 - INFO - Image downloaded & set: https://i.redd.it/u9f6m60b14681.jpg - Winter [2560x1440] from r/Stunning_Backdrops
