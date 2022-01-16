@@ -9,7 +9,7 @@ from os.path import exists
 
 
 cwd = os.getcwd() + "\\"
-settings_file = "RedditWallpaperPy.json"
+settings_file = "Settings.json"
 if not exists(settings_file):
     new_file = open(settings_file, "w")
     new_file.write('{\n"subreddits": [\n"wallpaper",\n"wallpapers"\n],\n"resolutions": [\n"1920x1080",\n"2560x1440",\n"3840x2160"\n],\n"recent_wallpapers": [\n]\n}')
