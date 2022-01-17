@@ -57,13 +57,6 @@ def download_file(url): # downloads file when passed URL, returns file name
     return filename
 
 
-def get_subreddits(subreddits): # gets subreddit list from json file, creates string using formatting required for reddit url
-    sr_list = ""
-    for sr in subreddits:
-        sr_list += sr + "+"
-    return sr_list[:-1]
-
-
 def write_json(file_data, output_file): #re-writes settings file with updated recent wallpaper list after new one has been set
     with open(output_file, "w") as file:
         json.dump(file_data, file, indent=4)
@@ -77,7 +70,7 @@ def read_json(file): # returns json data from provided json file
 
 def search_reddit(subreddits, resolutions):
     img_exts = ["JPG", "JPEG", "PNG"]
-    url = f"https://www.reddit.com/r/{get_subreddits(subreddits)}/search.json?limit=30&t=month&q={' OR '.join(resolutions)}&restrict_sr=on"
+    url = f"https://www.reddit.com/r/{'+'.join(subreddits)}/search.json?limit=30&t=month&q={' OR '.join(resolutions)}&restrict_sr=on"
     logging.info(f"Searched the following subreddits:\n {subreddits}\n for the following resolutions:\n {resolutions}")
     reddit_json = requests.get(url, headers={'User-agent': 'yourbot'}).json()['data']['children']
     posts = []
